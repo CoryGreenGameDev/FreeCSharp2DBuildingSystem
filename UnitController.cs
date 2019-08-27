@@ -85,7 +85,7 @@ public class UnitController : MonoBehaviour {
 				cController.unitSelected = 4;
 
 			if (Input.GetKey(KeyCode.Alpha6) && cController.unit5 != null)
-				cController.unitSelected = 5;
+				cController.unitSelected = 5; 
 
 			if (Input.GetKey(KeyCode.Alpha7) && cController.unit6 != null)
 				cController.unitSelected = 6;
